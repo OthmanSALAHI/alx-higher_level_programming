@@ -1,0 +1,3 @@
+python_code="$PYCODE"
+
+python3 -c "$python_code"
