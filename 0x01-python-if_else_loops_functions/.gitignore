@@ -1,2 +1,5 @@
-#files
-__pycache__
+# tests
+test.py
+push.py
+main.py
+test.c
