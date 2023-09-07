@@ -1,0 +1,7 @@
+#!/usr/bin/phython3
+
+if __name__ == "__main__":
+
+    from variable_loas_5 import a
+
+    print("{}".format(a))
