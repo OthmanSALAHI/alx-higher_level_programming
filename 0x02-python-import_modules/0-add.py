@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-add = __import__('add_0').add
+from 0-add import add
 a = 1
 b = 2
 print("{} + {} = {}".format(a, b, add(a, b)))
