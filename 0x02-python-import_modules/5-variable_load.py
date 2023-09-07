@@ -1,4 +1,4 @@
-#!/usr/bin/phython3
+#!/usr/bin/python3
 
 if __name__ == "__main__":
 
