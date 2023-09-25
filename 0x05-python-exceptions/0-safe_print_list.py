@@ -9,3 +9,4 @@ def safe_print_list(my_list=[], x=0):
             print("Error of {}".format(e))
     print()
     return (result)
+
