@@ -5,7 +5,7 @@ def safe_print_list(my_list=[], x=0):
         try:
             print("{}".format(my_list[idx]), end="")
             result += 1
-        except ValueError as e:
+        except IndexError as e:
             print("Error of {}".format(e))
     print()
     return (result)
