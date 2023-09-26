@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-class Square:
-    pass
+"""the class"""
 
+
+class Square:
+    """the class and the atribute"""
+    pass
