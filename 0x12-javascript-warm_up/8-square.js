@@ -3,7 +3,7 @@ const x = Math.floor(Number(process.argv[2]));
 let i = 0;
 
 if (isNaN(x)) {
-  console.log('Missing number of occurrences');
+  console.log('Missing size');
 }
 while (i < x) {
   let j = 0;
