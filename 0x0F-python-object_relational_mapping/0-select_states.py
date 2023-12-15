@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""select all states"""
+
 
 from sys import argv
 import MySQLdb
