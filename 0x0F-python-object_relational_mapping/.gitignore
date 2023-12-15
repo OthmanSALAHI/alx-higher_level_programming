@@ -1,2 +1,3 @@
 *.sh
 0-select_states.py
+__pycache__/
