@@ -1,7 +1,10 @@
 #!/usr/bin/python3
+"""the state with name"""
+
 
 from sys import argv
 import MySQLdb
+
 
 def connect_db():
     db = MySQLdb.connect(user=argv[1], passwd=argv[2],
@@ -12,6 +15,7 @@ def connect_db():
     for state in states:
         print(state)
     db.close()
+
 
 if __name__ == "__main__":
     connect_db()
