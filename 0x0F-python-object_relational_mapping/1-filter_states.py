@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""select the N states"""
+
 
 from sys import argv
 import MySQLdb
