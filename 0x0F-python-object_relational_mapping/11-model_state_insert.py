@@ -19,3 +19,5 @@ if __name__ == "__main__":
         session.add(new_state)
         session.commit()
     add_state_to_database("Louisiana")
+    res = session.query(State).order_by(State.id).all()
+    print(f"{len(res)}")
