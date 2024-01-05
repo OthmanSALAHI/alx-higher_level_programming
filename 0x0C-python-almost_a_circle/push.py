@@ -5,7 +5,7 @@ import os
 
 def main():
     
-    directory = '.'  # Replace with the path to your directory
+    directory = './tests/'  # Replace with the path to your directory
 
     # Get the list of all files in the directory
     file_names = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
