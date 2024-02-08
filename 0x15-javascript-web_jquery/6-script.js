@@ -1,3 +1,3 @@
 $('DIV#update_header').click(() => {
-  $('HEADER').text('New Header!!!');
+  $(this).text('New Header!!!');
 });
